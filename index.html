@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Price Alert System</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>📈 Price Alert System</h1>
+
+    <div class="price-box">
+      <p>Current Price: <span id="price">$0.00</span></p>
+    </div>
+
+    <div class="form-group">
+      <input type="number" id="alertPrice" placeholder="Enter alert price ($)" />
+      <button onclick="setAlert()">Set Alert</button>
+    </div>
+
+    <div id="notification" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
