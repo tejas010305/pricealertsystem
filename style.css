@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .price-box {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .form-group input {
+    padding: 0.5rem;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #notification {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
