@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  width: 90%;
+  max-width: 1000px;
+}
+
+#patterns {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+}
